@@ -53,4 +53,7 @@ public class TarefasServices {
         this.tarefas.removeIf(s -> s.id == id);
     }
 
+    public List<TarefasModel> FiltrarPorStatus(StatusEnum status) {
+        return  this.tarefas.stream().filter(x -> x.Status == status).toList();
+    }
 }

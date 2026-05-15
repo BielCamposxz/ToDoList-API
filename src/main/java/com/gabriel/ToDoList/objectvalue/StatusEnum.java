@@ -1,4 +1,4 @@
-package com.gabriel.ToDoList.Enum;
+package com.gabriel.ToDoList.objectvalue;
 
 public enum StatusEnum {
     Feito,
